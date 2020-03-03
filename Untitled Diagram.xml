@@ -1,4 +1,4 @@
-<mxfile modified="2020-03-03T13:14:39.775Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="TixAXYNostXuZNMcHBId" version="12.7.9" type="github" pages="2">
+<mxfile modified="2020-03-03T13:34:37.078Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="4PacXrdq3CxA1sbaZjat" version="12.7.9" type="github" pages="2">
   <diagram name="Page-1" id="3fe1c750-2f7f-1aee-8918-2a5b93268c60">
     <mxGraphModel dx="2522" dy="769" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -807,7 +807,7 @@
           <mxGeometry x="-120" y="2354" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bGciDtokzCpXXNrWEBdh-722" value="ESTABLISHED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-535" y="2238" width="95" height="20" as="geometry" />
+          <mxGeometry x="-510" y="2238" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bGciDtokzCpXXNrWEBdh-723" value="CLOSED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-133" y="2399" width="95" height="20" as="geometry" />
@@ -923,7 +923,7 @@
         <mxCell id="zXH4qU6CGO8nC39u4GxY-737" value="应用程序关闭连接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;perimeterSpacing=0;" parent="1" vertex="1">
           <mxGeometry x="-651" y="2318" width="106" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="zXH4qU6CGO8nC39u4GxY-739" value="向应用程序交付EOF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;strokeOpacity=100;arcSize=12;" parent="1" vertex="1">
+        <mxCell id="zXH4qU6CGO8nC39u4GxY-739" value="&lt;div align=&quot;left&quot;&gt;向应用程序交付EOF&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;strokeOpacity=100;arcSize=12;" parent="1" vertex="1">
           <mxGeometry x="-650" y="2250" width="112" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zXH4qU6CGO8nC39u4GxY-745" value="应用程序关闭" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;perimeterSpacing=0;" parent="1" vertex="1">
