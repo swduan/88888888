@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T09:26:28.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="22.1.7" etag="ifhRpdXyddeRP5lkftAj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T01:43:02.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sAmmr948eKgDhyfT_Ty4" version="22.1.7" type="github">
   <diagram name="第 1 页" id="8ad2CBzuucdJZ7vBzMSo">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="1291" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-1" value="应用程序" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10.5" y="-23" width="149.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-2" value="&lt;br&gt;Cygwin函数库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="146" y="65" width="142" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-3" value="&lt;br&gt;cygwin1.dll" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="153" width="198" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#ff0000;dashed=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RoTo8BkZuKpk80Au5oS8-1" target="RoTo8BkZuKpk80Au5oS8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="181" y="86" as="sourcePoint" />
+            <mxPoint x="-202" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;" edge="1" parent="1" source="RoTo8BkZuKpk80Au5oS8-1" target="RoTo8BkZuKpk80Au5oS8-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-155" y="237" as="sourcePoint" />
+            <mxPoint x="-105" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RoTo8BkZuKpk80Au5oS8-2" target="RoTo8BkZuKpk80Au5oS8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-115" y="243" as="sourcePoint" />
+            <mxPoint x="170" y="169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-11" value="POSIX API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff00f7;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="169" y="65" width="98" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-13" value="POSIX system call" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff00f7;fontColor=#fafafa;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="23" y="153" width="150" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-14" value="&lt;br&gt;user32、kernel32、msvcrt等函数库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-49" y="259" width="184" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-15" value="Win32 API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff00f7;fontColor=#fafafa;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-31.5" y="259" width="150" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-16" value="&lt;br&gt;NT内核" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="78" y="382" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-17" value="Native API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff00f7;fontColor=#fafafa;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100.5" y="382" width="96" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.465;exitY=1.02;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e3c800;strokeColor=#B09500;exitPerimeter=0;" edge="1" parent="1" source="RoTo8BkZuKpk80Au5oS8-3" target="RoTo8BkZuKpk80Au5oS8-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="342" as="sourcePoint" />
+            <mxPoint x="-80" y="292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1" source="RoTo8BkZuKpk80Au5oS8-14" target="RoTo8BkZuKpk80Au5oS8-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="81" y="426" as="sourcePoint" />
+            <mxPoint x="131" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTo8BkZuKpk80Au5oS8-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1" source="RoTo8BkZuKpk80Au5oS8-3" target="RoTo8BkZuKpk80Au5oS8-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319" y="310" as="sourcePoint" />
+            <mxPoint x="369" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
